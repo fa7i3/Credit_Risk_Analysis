@@ -2,5 +2,5 @@
 # Overview
 # Software Used:
 # Results
-Logistic Regression
+LOGISTIC REGRESSION
 # Summary
