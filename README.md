@@ -12,20 +12,34 @@ The random oversampling model had the following metrics..
 * Balanced Accuracy: 0.661
 * Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.72.
 
+![Random oversampling 1](https://user-images.githubusercontent.com/104453593/188340895-f702c32c-649a-4e74-a1d7-295a1b146ebf.PNG)
+
+
 ###### SMOTE Oversampling
 The SMOTE oversampling model had the following metrics..
 * Balanced Accuracy: 0.658
 * Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.62.
+
+![SMOTE Oversampling 1](https://user-images.githubusercontent.com/104453593/188340927-8a7a77dd-daa3-44bc-8647-89df08b36e8d.PNG)
+
 
 ###### ClusterCentroids Undersampling
 The ClusterCentroids Undersampling model had the following metrics..
 * Balanced Accuracy: 0.658
 * Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.72.
 
+![Undersampling 1](https://user-images.githubusercontent.com/104453593/188340949-cc528015-60a0-4a59-bc28-c0b182b532fe.PNG)
+
+
+
 ###### Combination (Over and Under) Sampling
 The Combination (Over and Under) Sampling model had the following metrics..
 * Balanced Accuracy: 0.661
 * Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.77.
+
+![combination sampling 1](https://user-images.githubusercontent.com/104453593/188340965-314be125-f212-4999-9cb1-8fbda9218005.PNG)
+
+
 
 ## Deliverable 3: Use Ensemble Classifiers Models to Predict Credit Risk
 I used two Ensemble Classifiers Models (i.e. BalancedRandomForestClassifier and EasyEnsembleClassifier) for Deliverable 3 to predict credit risk.
@@ -34,10 +48,17 @@ The Balanced Random Forest Classifier model had the following metrics..
 * Balanced Accuracy: 0.755
 * Precision and Recall: This model predicted high risk datapoints with a precision of 0.03 and a recall of 0.62.
 
+![balancedrandom forest classifier](https://user-images.githubusercontent.com/104453593/188340981-11954430-1b50-4e1b-a909-c9b77689268b.PNG)
+
+
 ###### Easy Ensemble Classifier
 The Easy Ensemble Classifier model had the following metrics..
 * Balanced Accuracy: 0.932
 * Precision and Recall: This model predicted high risk datapoints with a precision of 0.09 and a recall of 0.92.
+
+![easy emsemble classifier](https://user-images.githubusercontent.com/104453593/188341002-45c2c815-25b8-42db-90e1-d8a9fe3816ac.PNG)
+
+
 # Summary
 ## Balanced Accuracy:
 According to the models and the pictures above, the Easy Ensemble Classifier model had the highest balanced accuracy which is 93%; while both the SMOTE oversampling and ClusterCentroids Undersampling models have the lowest balanced accuracy at approximately 66%.  
