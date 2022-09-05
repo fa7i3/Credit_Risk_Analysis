@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 # Overview
-The purpose of this analysis is to predict credit risk (i.e. find good candidates for credit cards) using Machine Learning algorithms based on different factors. The results from the different machine learning models were compared by calculating the balanced accuracy, precision and recall scores. Based on these calculations, the performance of these models were evaluated and a written recommendation was made on which model can be used to predit credit risk.
+The purpose of this analysis is to predict credit risk (i.e. find good candidates for credit cards) using Machine Learning algorithms based on different factors. The results from the different machine learning models were compared by calculating the balanced accuracy, precision and recall scores. Based on these calculations, the performance of these models were evaluated and a written recommendation was made on which model can be used to predict credit risk.
 # Resources:
 * Jupyter Notebook
 * Libraries: pandas, Scikit-learn, pathlib
@@ -69,4 +69,4 @@ According to the pictures above, all the models had a low precision for high ris
 ## Recall:
 According to the models and the pictures above, the Easy Ensemble Classifier model had the highest recall for high risk applicants which is 92%; while both the SMOTE oversampling and Balanced Random Forest Classifier models have the lowest balanced accuracy at approximately 62%. This shows that the Easy Ensemble Classifier model was good at detecting high risk applicants.
 
-According to all the results above, I would recommend the Easy Ensemble Classifier model but with a little caution. This is due to the fact that it was able to detect high risk applicants and can be used to detct more high risk candidates.
+According to all the results above, I would recommend the Easy Ensemble Classifier model but with a little caution. This is due to the fact that it was able to detect high risk applicants and can be used to detect more high risk candidates.
