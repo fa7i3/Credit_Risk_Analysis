@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 # Overview
-The purpose of this analysis is to predict credit risk (i.e find good candidates for credit cards) using Machine Learning algorithms based on different factors. The results from the different machine learning models were compared by calculating the balanced accuracy, precision and recall scores. Based on these calculations, the performance of these models were evaluated and a written recommendation was made on which model can be used to predit credit risk.
+The purpose of this analysis is to predict credit risk (i.e. find good candidates for credit cards) using Machine Learning algorithms based on different factors. The results from the different machine learning models were compared by calculating the balanced accuracy, precision and recall scores. Based on these calculations, the performance of these models were evaluated and a written recommendation was made on which model can be used to predit credit risk.
 # Resources:
 * Jupyter Notebook
 * Libraries: pandas, Scikit-learn, pathlib
